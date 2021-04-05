@@ -1,24 +1,17 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Sample Rails app with PostgreSQL dockerized :whale:
 
-Things you may want to cover:
+This repo contains the source code for a dockerized sample Rails app in its own isolated container along with another isolated container for persisting data into PostgreSQL database.
 
-* Ruby version
+To play with it just pull the docker image and run it with Docker Compose:
 
-* System dependencies
+```
+docker pull ingmarsk/rails-sample
+```
 
-* Configuration
+```
+docker-compose up
+```
 
-* Database creation
+Then visit http://localhost:3005/
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
