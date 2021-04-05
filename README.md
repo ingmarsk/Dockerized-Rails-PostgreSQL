@@ -1,6 +1,6 @@
 ![enter image description here](https://nayan.co/blog/Rails/rails-docker/rails-docker.jpg)
 
-## Sample dockerized Rails app with PostgreSQL :whale:
+## Sample dockerized Rails app with PostgreSQL
 
 This repo contains the source code for a dockerized sample Rails app in its own isolated container along with another isolated container for persisting data into PostgreSQL database.
 
