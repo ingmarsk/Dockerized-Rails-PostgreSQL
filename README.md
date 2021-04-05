@@ -16,6 +16,12 @@ docker-compose up
 
 Then visit http://localhost:3005/
 
+**To apply codebase changes**
+```
+docker-compose build
+docker-compose up
+```
+
 **To stop the app**
 ```
 docker-compose down
