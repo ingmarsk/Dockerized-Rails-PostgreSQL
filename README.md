@@ -1,3 +1,4 @@
+![enter image description here](https://nayan.co/blog/Rails/rails-docker/rails-docker.jpg)
 
 ## Sample dockerized Rails app with PostgreSQL :whale:
 
