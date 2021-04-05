@@ -1,3 +1,8 @@
+# docker tag rails-sample_web ingmarsk/rails-sample:latest
+# docker login
+# docker push ingmarsk/rails-sample:latest
+# docker pull ingmarsk/rails-sample
+
 # Debian OS baseImage
 FROM ruby:2.5
 RUN apt-get update && apt-get install -y nodejs postgresql-client
