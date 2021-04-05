@@ -1,5 +1,4 @@
-
-## Sample Rails app with PostgreSQL dockerized :whale:
+## Sample dockerized Rails app with PostgreSQL :whale:
 
 This repo contains the source code for a dockerized sample Rails app in its own isolated container along with another isolated container for persisting data into PostgreSQL database.
 
@@ -24,5 +23,5 @@ docker-compose down
 
 **To remove the image**
 ```
-docker
-
+docker rmi ingmarsk/rails-sample
+```
