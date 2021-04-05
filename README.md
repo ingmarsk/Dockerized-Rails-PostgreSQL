@@ -7,6 +7,9 @@ This repo contains the source code for a dockerized sample Rails app in its own 
 To play with it just pull the docker image and run it with Docker Compose:
 
 **Pull docker image**
+
+DockerHub Registry: https://hub.docker.com/repository/docker/ingmarsk/rails-sample
+
 ```
 docker pull ingmarsk/rails-sample
 ```
