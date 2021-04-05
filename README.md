@@ -38,7 +38,7 @@ docker rmi ingmarsk/rails-sample
 
 All Postgres data from the rails app is persisted in a volume from the host machine so the web and database services can be rebuild without data loss.
 
-To visualise the data, you can connect to the postgres container `rails-sample_db_1`  which is mapped to the same port wich Postgres uses on the host machine: `0.0.0.0:5432->5432/tcp`
+To visualise the data, you can connect to the running postgres container `rails-sample_db_1` which is mapped to the same port Postgres uses in the host machine: `5432`
 
 You can check it by running `docker ps`:
 
