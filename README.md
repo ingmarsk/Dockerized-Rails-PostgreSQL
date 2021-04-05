@@ -44,4 +44,11 @@ You can check it by running `docker ps`:
 
 ![enter image description here](https://i.ibb.co/dDR28L8/Screenshot-2021-04-05-at-21-08-10.png)
 
-![TablePlus](https://i.ibb.co/6bnHP7X/Screenshot-2021-04-05-at-20-54-35.png)
+Open up a new TablePlus PostgreSQL Conenction:
+* **Name:** docker-sample-app-development
+* **Tag:** local
+* **Host/Socker:** 0.0.0.0
+* **Port:** 5432
+* **User:** postgres
+* **Password:** password
+* **Database:** myapp_development
